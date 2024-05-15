@@ -165,10 +165,10 @@
                   let l = (0, o.Z)(e),
                     n = $("#cnblogs_post_body").text().length;
                   return (
-                '<span class="postMeta"><i class="simple-memory-iconfont simple-memory-icon-time1"></i>发表于 ' + info.date + '' +
-                '<i class="simple-memory-iconfont simple-memory-icon-browse"></i>阅读：' + info.vnum + '' +
-                '<i class="simple-memory-iconfont simple-memory-icon-interactive"></i>评论：' + info.cnum + '' +
-                '<i class="simple-memory-iconfont simple-memory-icon-hot"></i>推荐：' + info.tnum + '' +
+                '<span class="postMeta"><i class="simple-memory-iconfont simple-memory-icon-time1"></i>发表于 ' + l.date + '' +
+                '<i class="simple-memory-iconfont simple-memory-icon-browse"></i>阅读：' + l.vnum + '' +
+                '<i class="simple-memory-iconfont simple-memory-icon-interactive"></i>评论：' + l.cnum + '' +
+                '<i class="simple-memory-iconfont simple-memory-icon-hot"></i>推荐：' + l.tnum + '' +
                 '</span>'
                   );
                 })(e)
