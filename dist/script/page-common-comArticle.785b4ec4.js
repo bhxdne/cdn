@@ -169,7 +169,7 @@
                 '<i class="simple-memory-iconfont simple-memory-icon-browse"></i>阅读：' + info.vnum + '' +
                 '<i class="simple-memory-iconfont simple-memory-icon-interactive"></i>评论：' + info.cnum + '' +
                 '<i class="simple-memory-iconfont simple-memory-icon-hot"></i>推荐：' + info.tnum + '' +
-                '</span>';
+                '</span>'
                   );
                 })(e)
               ),
